@@ -1,4 +1,4 @@
-#Alexza Jean R. Catanoy
+0#Alexza Jean R. Catanoy
 #BSCPE 1-4
 #Even and Odd
 
@@ -10,3 +10,6 @@ print("\033[0;36m*" * 70)
 print("\033[1;32m\nHello! Your programmers name is Alexza Jean.")
 print("\033[1;32m\nShe's from BSCPE 1-4.")
 print("-" * 70)
+
+#Open numbers.txt (read), even.txt (append), odd.text (append)
+with open("Numbers.txt") as input_data, open("Even.txt", "a") as output_even, open("Odd.txt", "a") as output_odd
