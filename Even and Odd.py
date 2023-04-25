@@ -22,7 +22,7 @@ with open("Numbers.txt") as input_data, open("Even.txt", "a") as output_even, op
         if input_data % 2 == 0:
         
             #Calculate for its square
-            square = input_data + input_data
+            square = input_data * input_data
         
             #Type it to Even.txt
             output_even.write(str(square) + "\n")
