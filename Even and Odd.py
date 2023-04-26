@@ -11,21 +11,25 @@ print("\033[1;32m\nHello! Your programmers name is Alexza Jean.")
 print("\033[1;32m\nShe's from BSCPE 1-4.")
 print("-" * 70)
 
-#Open numbers.txt (read), even.txt (append), odd.text (append)
-with open("Numbers.txt") as input_data, open("Even.txt", "a") as output_even, open("Odd.txt", "a") as output_odd:
+def process():
 
-    #From the first line up to the end, read numbers.txt 
-    for line in input_data:
-        input_data = int(line)
+#Open numbers.txt (read), even.txt (append), odd.text (append)
+    with open("Numbers.txt") as input_data, open("Even.txt", "a") as output_even, open("Odd.txt", "a") as output_odd:
+
+        #From the first line up to the end, read numbers.txt 
+            for line in input_data:
+                input_data = int(line)
 
         #If the number is even
-        if input_data % 2 == 0:
+            if input_data % 2 == 0:
         
-            #Type it to Even.txt
-            output_even.write(str(input_data) + "\n") 
+                #Type it to Even.txt
+                output_even.write(str(input_data) + "\n") 
 
         #If the number is odd
-        else:
+            else:
 
-            #Type it to Odd.txt
-            output_odd.write(str(input_data) + "\n")
+                #Type it to Odd.txt
+                output_odd.write(str(input_data) + "\n")
+
+process()  
