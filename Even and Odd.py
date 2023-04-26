@@ -21,17 +21,11 @@ with open("Numbers.txt") as input_data, open("Even.txt", "a") as output_even, op
         #If the number is even
         if input_data % 2 == 0:
         
-            #Calculate for its square
-            square = input_data * input_data
-        
             #Type it to Even.txt
-            output_even.write(str(square) + "\n")
+            output_even.write(str(input_data) + "\n") 
 
         #If the number is odd
         else:
 
-            #Calculate for its cube
-            cube = input_data + input_data + input_data
-
             #Type it to Odd.txt
-            output_odd.write(str(cube) + "\n")
+            output_odd.write(str(input_data) + "\n")
