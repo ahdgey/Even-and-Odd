@@ -13,6 +13,7 @@
 ## Usage
 1. In the directory where the Python software is located, create a text file called Numbers.txt.
 2. In the Numbers.txt file, enter 20 integers, one on a every line.
-3. Run your Python program.
-4. Within the Python program's directory, make two text files with the names Even.txt and Odd.txt.
-5. All the even numbers that were extracted from Numbers.txt will be in Even.txt, while all the odd numbers will be in Odd.txt.
+3. Within the Python program's directory, make two text files with the names Even.txt and Odd.txt.. 
+4. Run your Python program.
+5. The program will display the title of the activity, programmers name, and her course and section.
+6. All the even numbers that were extracted from Numbers.txt will be in Even.txt, while all the odd numbers will be in Odd.txt.
