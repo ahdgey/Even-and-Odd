@@ -13,14 +13,14 @@ print("-" * 70)
 
 def process():
 
-#Open numbers.txt (read), even.txt (append), odd.text (append)
+    #Open numbers.txt (read), even.txt (append), odd.text (append)
     with open("Numbers.txt") as input_data, open("Even.txt", "a") as output_even, open("Odd.txt", "a") as output_odd:
 
         #From the first line up to the end, read numbers.txt 
-            for line in input_data:
-                input_data = int(line)
+        for line in input_data:
+            input_data = int(line)
 
-        #If the number is even
+            #If the number is even
             if input_data % 2 == 0:
         
                 #Type it to Even.txt
